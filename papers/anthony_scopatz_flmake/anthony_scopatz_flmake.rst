@@ -15,7 +15,7 @@ Total Recall: flmake and the Quest for Reproducibility
     handled by the user. However, with the recent advent of flmake - a Python 
     workflow management utility for FLASH - such tasks may be performed in a 
     fully reproducible way. The methods that flmake implements are widely applicable 
-    outside of the FLASH code. This paper aims to dissemenate these methods and, 
+    outside of the FLASH code. This paper aims to disseminate these methods and, 
     more importantly, an example user interface for them.
 
 .. class:: keywords
@@ -47,7 +47,7 @@ FLASH - such tasks may now be performed in a fully automated way [FLMAKE]_.
 
 Since FLASH produces a different binary executable for every simulation, a 
 run of FLASH may be *reproduced* if and only if sufficient information is
-retained to replay preciely the setup, build, and execution steps. Historically, 
+retained to replay precisely the setup, build, and execution steps. Historically, 
 most FLASH runs have only retained and published the information required to 
 evaluate the execution phase. Reproducibility in this context does not encompass
 *replicability*, or the capability to produce bit-identical binaries computed on 
@@ -70,7 +70,7 @@ system and the state of the code when each flmake command is run. This metadata 
 the version information of both the FLASH mainline and project repositories.
 However, it also may include all local modifications since the last commit.
 A patch is automatically generated using standard posix utilities and stored directly 
-in the description. Thus flmake does not soley rely on the version 
+in the description. Thus flmake does not solely rely on the version 
 control system to enable reproducibility.
 
 Along with universally unique identifiers (UUIDs), logging, and Python run control 
@@ -106,7 +106,7 @@ more easily retain information about software during and after production.
 
 Therefore the scientific computing landscape is such that there are presently the
 tools to have fully reproducible simulations.  However, most scientists
-choose to not utilize these technologies. This situtation is as dreadful as to a 
+choose to not utilize these technologies. This situation is as dreadful as to a 
 chemist not keeping a lab notebook.  The lack of software reproducibility means that 
 many solutions to science
 problems garnered through computational means are relegated to the realm of technical 
@@ -138,7 +138,7 @@ another a key component that has yet to be sufficiently addressed.
 However, for the reproducibility question the answer seems to be the design and
 adoption of better tools. If this is true then flmake provides a way to 
 bridge FLASH and its reproducibility concerns. It also serves as example 
-feature set that should be considered in any architechture discussions for 
+feature set that should be considered in any architecture discussions for 
 new codes.
 
 New Workflow Features
